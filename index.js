@@ -25,10 +25,10 @@ fs.readdir('./cmds/', (err, files) => {
   })
 
   bot.on("ready", async () => {
-    console.log("ATHENA est en ligne !");
-    bot.user.setActivity("ALYSO - %help | by Akuuu", {
+    console.log(" ");
+    bot.user.setActivity("SETACTIVITY", {
         type:"STREAMING",
-        url: "https://www.twitch.tv/akuuusama"
+        url: "URL TWITCH"
     });
 });
 
